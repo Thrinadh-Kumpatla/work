@@ -30,7 +30,6 @@ jobs:
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%d-T%H-%M-%S')" >> $GITHUB_ENV
 
-
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
