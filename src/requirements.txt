@@ -1,2 +1,4 @@
 Flask==2.0.1
 prometheus-flask-exporter==0.18.2
+waitress==2.0.0
+

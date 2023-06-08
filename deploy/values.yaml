@@ -6,7 +6,7 @@ image:
   repository: ghcr.io/thrinadh-kumpatla/work
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "2023-06-08-T12-34-20"
+  tag: "2023-06-08-T13-49-43"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -84,4 +84,4 @@ tolerations:
 affinity: {}
 
 log:
-  level: info
+  Level: info
