@@ -82,3 +82,6 @@ tolerations:
     tolerationSeconds: 20
 
 affinity: {}
+
+log:
+  level: info
